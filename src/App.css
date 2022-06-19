@@ -1,0 +1,112 @@
+body {
+  text-align: left;
+  align-content: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.bot {
+  height: 300px;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+/* chatbot */
+
+.refresh {
+  height: 25px;
+  margin: -4px 10px 0 0;
+  cursor: pointer;
+}
+
+.chatbox {
+  margin: auto;
+  width: 30%;
+  position:relative;
+  margin-top: 0;
+  border: solid black 1px;
+  height: 580px;
+}
+
+header {
+  background-color: whitesmoke;
+  text-align: right;
+  margin-bottom: 5px;
+  height: 50px;
+}
+
+.chat-name {
+  float: left;
+  margin: 10px 0 0 10px;
+  font-weight: bold;
+}
+
+.status {
+  float: left;
+  font-size: 12px;
+  margin: 10px 0 0 -55px;
+}
+
+.input {
+  border-radius: 15px;
+  position: absolute;
+  bottom: 3px;
+  padding: 5px;
+  left: 4px;
+  right: 40px;
+  margin: 2px;
+}
+
+.send-button {
+  height: 25px;
+}
+
+button {
+  border: none;
+  background-color: white;
+  position: absolute;
+  bottom: 3px;
+  right: 4px;
+  cursor: pointer;
+}
+
+/* chat */ 
+
+.card1 {
+  background-color: lightblue;
+  padding: 5px 20px;
+  border-radius: 15px;
+  margin: 0 4px 7px 0;
+  width: 60%;
+  float: right;
+}
+
+.card2 {
+  background-color: whitesmoke;
+  padding: 5px 20px;
+  border-radius: 15px;
+  margin: 0 0 7px 4px;
+  width: 60%;
+  float: left;
+}
+
+/* scrollbar */
+
+.chat {
+  overflow-y: auto;
+  height: 480px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: lightblue; 
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(120, 179, 198); 
+}
